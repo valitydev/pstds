@@ -1,5 +1,5 @@
 {application, pstds,
- [{description, "An OTP application"},
+ [{description, "Payment System Token Dada Storage"},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, {pstds_app, []}},
@@ -8,8 +8,7 @@
     stdlib
    ]},
   {env,[]},
-  {modules, []},
 
   {licenses, ["Apache 2.0"]},
-  {links, []}
+  {links, ["https://github.com/rbkmoney/pstds.git"]}
  ]}.
